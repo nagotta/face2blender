@@ -1,4 +1,4 @@
-### 顔LandMarkデータのBlenderへの出力
+# 顔LandMarkデータのBlenderへの出力
 
 概要: MediaPipeにより取得できるLandMarkデータをBlenderにてオブジェクト表示させる
 
@@ -9,4 +9,12 @@
 
 ## ソースコードファイルの解説(そのうち書きます(2022/10/1))
 
+1. video2img.py
+1. images2npy.py
+1. npy2blender.py
+
 ## 実行方法(そのうち書きます(2022/10/1))
+
+1. video2img.py
+1. images2npy.py
+1. npy2blender.py
