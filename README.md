@@ -18,6 +18,6 @@ video2blenderフォルダの下位にvideoというフォルダを作ってそ�
 
 画像の場合はfacetotxt.pyのコード内のコメントアウト支持に従って実行したのちtxttoblender.pyを3,4番の流れで実行する.
 
-samplemovie↓
+SampleResultmovie↓
 
 https://user-images.githubusercontent.com/86472676/221435603-519b8dd9-3db5-49cb-a197-147686001a25.mp4
