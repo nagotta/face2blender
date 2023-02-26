@@ -1,20 +1,19 @@
 # 顔LandMarkデータのBlenderへの出力
 
-概要: MediaPipeにより取得できるLandMarkデータをBlenderにてオブジェクト表示させる
 
-## ディレクトリ構成(現在作成途中)
+顔動画および顔写真を読み込んでその特徴点(LandMark)をBlenderにてオブジェクトとして表示させます.
+
+スカルプト作成のときに目安として利用したりするとよいかも.
 
 
-* ```video2blenderフォルダ```: 動画から顔のLandMarkをBlenderに出力するコードのためのフォルダです。
+## 実行方法
 
-## ソースコードファイルの解説(そのうち書きます(2022/10/1))
+video2blenderフォルダの下位にvideoというフォルダを作ってそこに任意のvideo.mp4を入れる.
 
-1. video2img.py
-1. images2npy.py
-1. npy2blender.py
+1. video2img.pyを実行
+1. images2npy.pyを実行
+1. BlenderのPythonスクリプト実行画面を開いてnpy2blender.pyをコピペ
+1. filepathを自分の環境で2番を実行したときにファイルが保存されたpathに変える
+1. 3番を実行(end)
 
-## 実行方法(そのうち書きます(2022/10/1))
-
-1. video2img.py
-1. images2npy.py
-1. npy2blender.py
+画像の場合はfacetotxt.pyのコード内のコメントアウト支持に従って実行したのちtxttoblender.pyを3,4番の流れで実行する.
